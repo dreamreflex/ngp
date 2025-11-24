@@ -19,3 +19,5 @@ ngp的任务除了pki的改造外，还包含了mtls应用的改造
 3. nginx with PQC - ngp nginx
 4. mtlsunit2 with PQC - ngp app
 特别注意的是，mTLSunit with PQC所使用的改造原型是mtlsunit,它仍是一个受制于TCP隧道的应用，由于支持QUIC的应用尚未实现，因此以mTLSunit with PQC的所有下游都无法部署在生产环境中，因此才有mtlsunit2 with PQC - ngp app。
+
+上述方案预计在2030年前基本实现。
